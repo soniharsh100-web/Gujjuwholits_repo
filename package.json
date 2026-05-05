@@ -1,19 +1,14 @@
 {
   "name": "fitbot-telegram",
-  "version": "1.0.0",
-  "description": "AI fitness & calorie tracking Telegram bot powered by Claude",
+  "version": "2.0.0",
+  "description": "AI fitness & calorie tracking Telegram bot powered by Google Gemini (FREE)",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.64.0",
-    "@anthropic-ai/sdk": "^0.24.0",
     "node-schedule": "^2.1.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
