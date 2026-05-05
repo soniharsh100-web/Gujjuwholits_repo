@@ -58,7 +58,7 @@ function getTodayLog(user) {
 
 // ── Gemini API ────────────────────────────────────────────────────────────────
 async function callGemini(systemPrompt, history, userText, imageBase64 = null, mimeType = "image/jpeg") {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
   const contents = [];
   const recentHistory = history.slice(-12);
